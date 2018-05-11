@@ -1,0 +1,39 @@
+/*main.css*/
+
+/*reset*/
+*{margin:0; padding:0;}
+ol,ul{list-style:none;}
+a{text-decoration:none; color:#555;}
+img{border:0;}
+body{font-size:12px; line-height:1.6; font-family:arial; color:#555;}
+fieldset{border:none;}
+.blind{display:none;}
+
+
+/*wrap*/
+body{width:100%; height:940px; background:url(../images/bg_default.png) no-repeat 0 0; background-size:cover;}
+#wrap{width:100%; height:100%;}
+#wrap section{display:flex; flex-direction:column; align-items:center; width:100%; height:295px; background:#fff; position:fixed; bottom:0;}
+#wrap section p.userImg img{width:100px; border-radius:50px; position:absolute; top:-60px; left:50%; margin-left:-50px;}
+#wrap section p{font-size:18px; margin-top:25px;}
+ul li i{color:#fff;}
+
+form input{border:1px solid #777; font-size:14px; padding:5px 4px; line-height:14px; color:#777; margin-top:10px; width:150px;}
+.stabar{display:inline-flex;margin-left:5px}
+.stabar li{margin-left:3px;}
+
+.clock{position:absolute; left:50%; transform:translate(-50%); top:0; color:#fff;}
+
+.stabar2{position:absolute; right:5px; display:inline-flex;}
+.stabar2 li{margin-left:3px;}
+.stabar2 li:nth-child(3){color:#fff;}
+
+.stabar3{display:flex; justify-content:space-between;}
+.stabar3 li{margin:0 20px; font-size:20px;}
+
+ul.icon, ul.txt{display:flex; justify-content:space-around; margin-top:20px;}
+ul.icon li{width:50px; height:50px; border-radius:25px; background:#f2f2f2;}
+ul.icon li i{color:#4c3c2d; font-size:20px; line-height:50px;  margin-left:15px;}
+
+
+ul.txt{font-weight:bold; color:#282828;}

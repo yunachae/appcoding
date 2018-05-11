@@ -1,0 +1,38 @@
+/*sub1.css*/
+*{margin:0; padding:0;}
+*{-webkit-text-size-adjust:none;}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#c1c1c1;}
+#wrap{width:100%; height:100%; font-size:12px;}
+
+header{position:fixed; top:0; left:0; display:flex; flex-direction:column-reverse; width:100%; height:64px; padding:5px 10px; box-sizing:border-box; background:#513736;}
+header div:first-of-type{position:relative; height:30px; color:#fff; box-sizing:border-box; margin-top:7px;}
+header div:first-of-type h1{display:inline-block; position:absolute; left:50%; transform:translateX(-50%); line-height:30px; font-size:14px; font-weight:bold;}
+header div:first-of-type p{display:inline-block; margin-left:10px; line-height:30px; font-size:14px; opacity:0.5; font-weight:bold;}
+header div:last-of-type{position:relative; display:flex; flex-direction:row; justify-content:space-between; color:#fff;}
+header div:last-of-type ul{display:flex; flex-direction:row;}
+header div:last-of-type p{position:absolute; left:50%; transform:translateX(-50%);}
+
+/*container*/
+#container{position:relative; padding-top:64px; }
+#container .srch_box{height:54px; border-bottom:1px solid #ddd; box-sizing:border-box;}
+#container .srch_box input{border:none;border-radius:5px;background:#eee; padding:5px 150px 5px 150px;color:#666;
+							position:absolute; left:50%;transform:translateX(-50%);margin-top:13px;}
+#container .srch_box span{font-size:13px;color:#bbb;position:absolute; left:7%;top:10.5%;}
+/*chatRoom*/
+#container > .chatRoom > section{display:flex; flex-direction:row; justify-content:space-between; border-bottom:1px solid #ddd; height:83px; padding:15px; box-sizing:border-box;}
+#container > .chatRoom > section > dl{display:flex; flex-direction:row;}
+#container > .chatRoom > section > dl > dt{width:50px; height:50px; border-radius:50%; overflow:hidden; margin-right:15px;}
+#container > .chatRoom > section > dl > dt > img{width:100%;}
+#container > .chatRoom > section > dl > dd ul li:first-of-type{margin-bottom:10px;}
+#container > .chatRoom > section > dl > dd ul li:first-of-type strong{font-size:14px; font-weight:bold;}
+#container > .chatRoom > section > dl > dd ul li:last-of-type{font-size:11px; color:#aaa;}
+#container > .chatRoom > section > time{font-size:11px; color:#aaa;}
+#container > .plus_chat{position:fixed; bottom:80px; right:20px; width:60px; height:60px; border-radius:50%; box-shadow:7px 7px 10px #aaa;}
+
+footer{position:fixed; bottom:0; left:0; width:100%; height:55px;
+       border-top:1px solid #c1c1c1; box-sizing:border-box; background:#f7f7f7;}
+footer nav ul{display:flex; flex-direction:row; align-items:center;}
+footer nav ul li{text-align:center; font-size:12px;}
+footer nav ul li span{display:block; font-size:21px; padding-bottom:5px;}
+footer nav ul li{flex:auto; align-self:center;}

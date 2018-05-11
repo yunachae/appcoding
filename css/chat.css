@@ -1,0 +1,54 @@
+@import url(reset.css);
+body{width:100%;}
+body *{box-sizing:border-box;}
+/* main.css */
+
+header{width:100%;height:65px;border-bottom:1px solid #99abb7;background:#a1c0d5;}
+header a{color:#0b0000;}
+
+.header_inner1{position:relative;display:flex;justify-content:space-between;height:23px;padding:0 15px;}
+.header_inner1 ul{display:flex;}
+.header_inner1 ul:nth-of-type(1) li{margin-right:8px;}
+.header_inner1 ul:nth-of-type(2) li{margin-left:8px;}
+.header_inner1 time{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+
+.header_inner2{position:relative;height:42px;}
+.header_inner2 h1{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+.header_inner2 p{position:absolute;left:21px;top:0;line-height:42px;}
+.header_inner2 ul{display:flex;position:absolute;right:21px;top:0;}
+.header_inner2 ul li{line-height:42px;margin-left:5px;}
+
+#container{height:700px;}
+#container article{display:flex;flex-direction:column;}
+.today{text-align:center;color:#7d7d7d;font-size:14px;margin-top:13px;}
+article.me{position:relative;display:flex;align-items:flex-end;}
+article.friend{display:flex;align-items:flex-start;justify-content:flex-end;}
+
+.me span{display:block;height:36px;background:#fceb3d;font-size:16px;color:#0a0600;border-radius:5px;line-height:36px;margin-bottom:10px;text-indent:5px;}
+.me_first span{width:53px;}
+.me_second span{width:222px;height:52px;line-height:1.6;}
+.me_third span{width:176px;}
+.me_third time{position:absolute;bottom:15px;right:200px;}
+
+
+.friend h2{float:left;}
+.friend h2.user i{font-size:35px;}
+.friend time{margin-left:20px;}
+.friend_wrap{margin-left:50px;}
+.friend_wrap span{display:inline-block;height:36px;background:#b4b5b0;line-height:36px;text-indent:5px;color:#0a0600;border-radius:5px;margin-bottom:10px;padding-right:5px;}
+.friend_wrap h3{position:relative;top:-30px;}
+
+article time{font-size:13px;color:#7d7d7d;}
+footer{display:flex; flex-direction:row;width:100%;background:#eee;height:45px;padding:0 10px;}
+footer a{color:#b7b3b4;}
+footer p{flex:1 1 0;}
+footer form{flex:8 8 0;padding-top:2px;}
+footer form fieldset{position:relative;}
+footer form fieldset input{width:100%;height:37px;border-color:#707070;}
+footer form p{position:absolute; bottom:0; right:0;}
+
+.add a{font-size:17px;color:#b4b5b0;line-height:45px;}
+.smile{margin-right:10px;}
+.smile a{font-size:19px;color:#b4b5b0;line-height:37px;}
+.mic{line-height:45px;}
+.mic a{display:inline-block;width:34px;height:37px;background:#ffe836;color:#4f3c38;text-align:center;line-height:37px;font-size:20px;}
